@@ -1,0 +1,159 @@
+
+header {
+    display: block;
+    width: 100%;
+    height: auto;
+    /**z-index: 1000;
+    position: fixed;**/
+    background-color: black;
+
+
+    
+}
+
+body{
+    background-color: black;
+}
+
+/**header,
+.main-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;**/
+}
+
+nav img {
+    display: block;
+    width: 200px;
+    height: 75px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+nav li {
+    width: auto;
+    height: 50px;
+    font-size: 1.25en;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+   /*** border: 1px solid white; **/
+    font-family: 'Droid Serif', serif;
+    background-color: black
+    
+
+}
+
+nav li a{
+    
+}
+
+.navButton  {
+    
+}
+
+
+
+#mainBody  {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: black;
+
+}
+
+p   {
+    
+    font-family: 'Droid Serif', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#mainBody img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+
+footer li {
+        width: 100;
+    display: block;
+    color: white;
+    float: center;
+    text-align: center;
+    font-size: .75em;
+    font-family: 'Droid Sans', sans-serif;
+
+
+}
+
+/*** about ***/
+
+/*** new tasting ***/
+
+/*** my book ***/
+
+
+/*** tablet sizing ***/
+
+@media (min-width: 450px) {
+    
+    header {
+    height: 75px;
+    
+}
+
+nav img {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+nav li {
+    width: 100px;
+    height: 25px;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+    
+   footer li {
+    float: right;
+    margin-right: 10px;
+       color: white;
+}
+    
+}
+
+
+/*** desktop sizing ***/
+
+@media (min-width: 1240px) {
+    
+header {
+    height: 100px;
+    
+}
+
+
+nav img {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+nav li {
+    width: 100px;
+    height: 25px;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+    
+  
+    
+}
