@@ -2,9 +2,11 @@
 header {
     display: block;
     width: 100%;
-    height: auto;
-    /**z-index: 1000;
-    position: fixed;**/
+    height: 150px;
+    padding-top: 15px;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
     background-color: black;
 
 
@@ -12,38 +14,34 @@ header {
 }
 
 body{
+    padding-top:150px;
     background-color: black;
 }
 
-/**header,
 .main-nav {
-  position: fixed;
+  position: relative;
+  display: flex;
   width: 100%;
-  top: 0;**/
+  top: 0;
 }
+
+   /*** logo **/
 
 nav img {
-    display: block;
+    display: inline-block;
     width: 200px;
     height: 75px;
-    margin: 0 auto;
+    padding: auto;
     text-align: center;
 
 }
-
-nav li {
-    
-
-}
+/*** navigation buttons **/
 
 nav li a{
-    width: auto;
-    height: 50px;
+    display: inline;
     font-size: 1.25en;
     color: white;
-    display: block;
-    text-align: center;
-    padding-top: 30px;
+    padding-top: 0px;
     margin: 0 auto;
    /*** border: 1px solid white; **/
     font-family: 'Droid Serif', serif;
@@ -52,9 +50,9 @@ nav li a{
     
 }
 
-.navButton  {
+/***.navButton  {
     
-}
+}***/
 
 
 
@@ -110,15 +108,11 @@ footer li {
 
 nav img {
     display: inline;
-    float: left;
     margin-right: 10px;
 }
 
 nav li {
-    width: 100px;
-    height: 25px;
     display: inline;
-    float: right;
     margin-right: 10px;
 }
     
@@ -143,15 +137,11 @@ header {
 
 nav img {
     display: inline;
-    float: left;
     margin-right: 10px;
 }
 
 nav li {
-    width: 100px;
-    height: 25px;
     display: inline;
-    float: right;
     margin-right: 10px;
 }
     
