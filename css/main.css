@@ -32,6 +32,11 @@ nav img {
 }
 
 nav li {
+    
+
+}
+
+nav li a{
     width: auto;
     height: 50px;
     font-size: 1.25en;
@@ -42,12 +47,8 @@ nav li {
     margin: 0 auto;
    /*** border: 1px solid white; **/
     font-family: 'Droid Serif', serif;
-    background-color: black
-    
-
-}
-
-nav li a{
+    background-color: black;
+    text-decoration: none;    
     
 }
 
