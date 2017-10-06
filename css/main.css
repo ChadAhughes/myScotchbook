@@ -7,7 +7,7 @@ header {
     z-index: 1000;
     top: 0;
     position: fixed;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 
 
     
@@ -20,7 +20,6 @@ body{
 
 .main-nav {
   position: relative;
-  display: flex;
   width: 100%;
   top: 0;
 }
@@ -28,7 +27,7 @@ body{
    /*** logo **/
 
 nav img {
-    display: inline-block;
+    display: block;
     width: 200px;
     height: 75px;
     padding: auto;
@@ -38,7 +37,7 @@ nav img {
 /*** navigation buttons **/
 
 nav li a{
-    display: inline;
+    display: blocks;
     font-size: 1.25en;
     color: white;
     padding-top: 0px;
@@ -69,10 +68,13 @@ p   {
     font-family: 'Droid Serif', serif;
     font-size: 1.5em;
     text-align: center;
+    color: white;
+    line-height: 2em;
+    padding: 0 40px 0 40px;
 }
 
 #mainBody img {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 100%;
     margin:auto;
@@ -105,6 +107,12 @@ footer li {
     height: 75px;
     
 }
+
+heade,
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+  }
 
 nav img {
     display: inline;
