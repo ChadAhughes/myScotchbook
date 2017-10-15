@@ -88,8 +88,11 @@ footer li {
     text-align: center;
     font-size: .75em;
     font-family: 'Droid Sans', sans-serif;
+}
 
-
+table {
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 /*** about ***/
@@ -108,7 +111,7 @@ footer li {
     
 }
 
-heade,
+header,
 .main-nav {
     display: flex;
     justify-content: space-between;
