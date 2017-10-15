@@ -19,7 +19,7 @@ body{
 }
 
 .main-nav {
-  position: relative;
+  position: block;
   width: 100%;
   top: 0;
 }
