@@ -4,6 +4,16 @@
 
 .nav li {
 font-size: .75rem;
-color: white;
+color: black;
+
+}
+
+.nav {
+    border-top: 2px solid black;
+}
+
+.container p {
+
+    font-size: 1.25em;
 
 }
