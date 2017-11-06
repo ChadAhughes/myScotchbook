@@ -2,71 +2,72 @@
 <html>
     <head>
         <title>My Scotchbook</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom.css">
     <body>
-        <header>
-                <!--Main Navigation-->
-                <nav class="main-nav">
-<a href = "index.html"><img alt="myScotchbooklogo" src="img/mSb_logo.png" ></a>                    
-<ul>
-    
-                             <li><a class = "navButton"  href = "index.html">home</a></li>
-                            <li><a class = "navButton"  href = "about.html">about</a></li>
-                            <li><a class = "navButton"  href = "myBook.html">My book</a></li>
-                            <li><a class = "navButton"  href = "newTasting.html">New Tasting</a></li>
-                        </ul>
-                    </nav>
-            </header>
+        <div class="container">
             
-            <!--main body with image and intro copy-->    
-                    
-                        <div id="mainBody">
-                               <!-- <form action="newTasting.html" method="post">
-                                        
-                                        <h1>Sign Up</h1>
-                                        
-                                        <label for="name">Name:</label>
-                                        <input type="text" id="name" name="user_name">
-                                        
-                                        <label for="distillery">Distillery:</label>
-                                        <input type="text" id="Distillery" name="user_email">
-                                        
-                                        <label for="region">Region:</label>
-                                        <input type="text" id="Region" name="user_password">
-                                        
-                                        <label for="country">country:</label>
-                                        <textarea id="country" name="country"></textarea>
-                                        
-                                        <button type="submit">Save</button>
-                                        
-                                      </form>-->
-
-                            <table>
-                                    <tr>
-                                        <td>Name:</td><td> <input type = "text" title = "Name"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Distillery:</td><td> <input type = "text" title = "Distillery"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Region:</td><td> <input type = "text" title = "Region"></td>
-                                     </tr>
-                                    <tr>
-                                        <td>country:</td><td> <input type = "text" title = "country"></td>
-                                        </tr>
-                                    <tr>
-                                        <td>type:</td><td> <input type = "text" title = "country"></td>
-                                    </tr>                                   
-                            </table>-->
+                        <nav class="navbar sticky-top d-flex justify-content-center navbar-expand-lg navbar-dark bg-dark">
+                                              <a class="navbar-brand" href = "index.html"><img alt="myScotchbooklogo" src="img/mSb_logo.png" ></a>
+                                          <div>
+                                            <ul class="navbar-nav ">
+                                              <li class="nav-item active d-flex justify-content-center m-2">
+                                                <a class="nav-link" href="index.html#aBout">About <span class="sr-only">(current)</span></a>
+                                              </li>
+                                              <li class="nav-item d-flex justify-content-center m-2">
+                                                <a class="nav-link" href="myBook.html">My Scotchbook</a>
+                                              </li>
+                                              <li class="nav-item d-flex justify-content-center m-2">
+                                                <a class="nav-link" href="newTasting.html">A new dram</a>
+                                              </li>
+                                                </ul>
+                                          </div><!--navbar-->
+                          </nav><!--nav-->
+                 
+                 <div class="container m-4">
+                    <form>
+                        <div class="form-group">
+                          <label for="Whiskey-nam">Whiskey Name:</label>
+                          <input type="text" class="form-control" id="Whiskey-name" aria-describedby="Whiskey name" placeholder="Whiskey">
                         </div>
-            <!--copywrite and design by-->    
-        <footer>
-            <ul>
-                        <li>copywrite</li>
-                        <li>design and built by Chad Hughes</li>
-                    </ul>
-    </footer>
- </body>
+                        <div class="form-group">
+                            <label for="Whiskey-distillery">Whiskey Distillery:</label>
+                            <input type="text" class="form-control" id="Whiskey-distillery" aria-describedby="Whiskey Distillery" placeholder="Whiskey Distillery">
+                        </div>
+                        <div class="form-group">
+                            <label for="Whiskey-region">Whiskey Region:</label>
+                            <input type="text" class="form-control" id="Whiskey-region" aria-describedby="Whiskey Region" placeholder="Whiskey Region">
+                        </div>
+                        <div class="form-check form-check-inline"">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Whiskey-like" value="option1">Yes, I liked it
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline"">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Whiskey-dislike" value="option2">No, Im not a fan
+                        </label>
+                      </div>
+                      <div>
+                        <button type="submit" class="btn btn-primary">Save it to your book</button>
+                      </div>
+                      </form>
+                      
+                                      </div><!--Container-fluid-->
+                      <!--footer-->
+                      <div class="row py-3">
+                          <div class="col-md text-md-center p-2" >
+                           <p>Designed and built by Chad Hughes 2017&#169;</p>
+                       </div>
+                       </div><!--end footer-->
+                </div><!--end Container-fluid-->
+
+          
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+  
+   </body>
+ 
 </html>
