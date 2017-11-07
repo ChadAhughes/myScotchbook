@@ -1,5 +1,5 @@
 
 
 $( "#newTastingbutton" ) .click(function() {
-    $("#mainBody").fadeOut("fast")
+    $("#mainBody, #newTasting").fadeTo("fast", 0.5)
   });
