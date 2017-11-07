@@ -4,6 +4,7 @@
         <title>My Scotchbook</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="css/custom.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
     <body>
             <div class="container">
               
@@ -18,7 +19,7 @@
                                                   <a class="nav-link"  href="index.html#aBout">About <span class="sr-only">(current)</span></a>
                                                 </li>
                                                 <li class="nav-item d-flex justify-content-center m-2">
-                                                  <a class="nav-link" id="newTastingbutton" href="myBook.html">My Scotchbook</a>
+                                                  <a class="nav-link" id="newTastingbutton" href="#">My Scotchbook</a>
                                                 </li>
                                                 <li class="nav-item d-flex justify-content-center m-2">
                                                 <a class="nav-link" href="newTasting.html">A new dram</a>
@@ -26,9 +27,9 @@
                                                   </ul>
                                             </div><!--navbar-->
                           </nav><!--nav-->
-                          <img src="img/mSb_mainimage_2.jpg" class="img-fluid" alt="Whisky pouring into glass"><!--main Image-->
+                          <img id="mainImage" src="img/mSb_mainimage_2.jpg" class="img-fluid" alt="Whisky pouring into glass"><!--main Image-->
                                          <!--start copy--> <div class="container text-center " >
-                                                <h2  class = "display-4 m-4" id = "aBout">My Scotchbook</h2>
+                                                <h2  class = "display-1" id = "aBout">My Scotchbook</h2>
                                                 <p>Falling in love after the first taste is easy to do.</p>
                                                 <p>The first taste. I have never forgotten it.  Lagavulen 16.  Where I was, who I was with. The taste was unforgettable.</p>
                                                 <p>I'm created this site so that I remember what it was like to smell a whisky and to taste a whisky. To know if I should try it again or pass it by.</p>
@@ -40,46 +41,6 @@
                         </div>
                         </div><!--end footer-->
                  </div><!--Container-fluid-->
-
-           
-       
-           
-<!-- Modal -->
-<div class="modal fade" id="newTasting" tabindex="-1" role="dialog" aria-labelledby="newWhisky" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="newWhisky">What are you trying?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <div class="form-group">
-              <label for="Whiskey-name" class="col-form-label">Whiskey Name:</label>
-              <input type="text" class="form-control" id="Whiskey-name">
-              <label for="Whiskey-distillery" class="col-form-label">Whiskey Distillery:</label>
-              <input type="text" class="form-control" id="Whiskey-distillery">
-              <label for="Whiskey-region" class="col-form-label">Whiskey Region:</label>
-              <input type="text" class="form-control" id="Whiskey-region">
-              <div class="form-check form-check"></div>
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Whiskey-like" value="option1">Yes, I liked it
-                  </label>
-                </div>
-                <div class="form-check form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Whiskey-dislike" value="option2">No, Im not a fan
-                  </label>
-                </div>
-            </div>      
-          </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button  type="button" class="btn btn-primary" >Save it to your book</button>
-      </div>
-    </div>
-  </div>
 
   
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

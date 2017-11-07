@@ -4,11 +4,18 @@
     box-shadow: 0px 10px 16px -5px rgba(0, 0, 0, .4);
 }
 
-.container p {
-
-    font-size: 1.25em;
-
+.container h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    margin: 1em 0 .5em 0;
 }
+
+.container p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.25em;
+        color: rgb(87, 86, 86);
+    
+    }
 
 /** footer top rule */
 .row {
@@ -23,3 +30,12 @@
     
     }
 
+.card-body p {
+    font-size: .90em
+
+}
+
+.form-group .form-check label {
+    font-family: 'Open Sans', sans-serif;
+
+}
