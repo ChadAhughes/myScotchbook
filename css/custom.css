@@ -30,15 +30,7 @@
     
     }
 
-.card-body p {
-    font-size: .90em
-
-}
-
-.form-group .form-check label {
-    font-family: 'Open Sans', sans-serif;
-
-}
+/** fade words */
 
 #mainBody    {
     position: relative;
@@ -46,7 +38,6 @@
 #mainBody img{
     display: relative;    
 }
-
 
 #mainBody h1 {
     position: absolute;
@@ -56,4 +47,31 @@
     color: rgb(47, 0, 255);
     text-align: center;
     display: none;
+}
+
+
+#newTasting {
+    position: relative;
+    margin: 20px;
+}
+
+#newTasting tastingForm {
+    position: relative;        
+}
+.form-group .form-check label {
+    position: relative;            
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#newTasting h1{
+    position: absolute;
+    font-size: 15.0vw;
+    top: 50%;
+    bottom: 50%;
+    color: rgb(47, 0, 255);
+    text-align: center;
+    display: none;
+    opacity: 100%;
 }
