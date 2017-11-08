@@ -41,7 +41,7 @@
 
 #mainBody h1 {
     position: absolute;
-    font-size: 15.0vw;
+    font-size: 7.0vw;
     top: 50%;
     bottom: 50%;
     color: rgb(47, 0, 255);
@@ -51,23 +51,22 @@
 
 
 #newTasting {
-    position: relative;
     margin: 20px;
 }
 
-#newTasting tastingForm {
-    position: relative;        
+#tForm {
+    position: relative;            
 }
+
 .form-group .form-check label {
     position: relative;            
     font-family: 'Open Sans', sans-serif;
 
 }
 
-
 #newTasting h1{
     position: absolute;
-    font-size: 15.0vw;
+    font-size: 7.0vw;
     top: 50%;
     bottom: 50%;
     color: rgb(47, 0, 255);
