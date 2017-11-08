@@ -39,3 +39,21 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+
+#mainBody    {
+    position: relative;
+}
+#mainBody img{
+    display: relative;    
+}
+
+
+#mainBody h1 {
+    position: absolute;
+    font-size: 15.0vw;
+    top: 50%;
+    bottom: 50%;
+    color: rgb(47, 0, 255);
+    text-align: center;
+    display: none;
+}
