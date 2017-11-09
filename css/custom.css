@@ -41,20 +41,24 @@
 
 #mainBody h1 {
     position: absolute;
-    font-size: 7.0vw;
+    font-size: 5.0vw;
     top: 50%;
     bottom: 50%;
     color: rgb(47, 0, 255);
-    text-align: center;
     display: none;
 }
 
 
 #newTasting {
-    margin: 20px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: auto;
 }
 
 #tForm {
+    display: inline-block;
+    margin: auto;
     position: relative;            
 }
 
@@ -64,13 +68,17 @@
 
 }
 
+.formcontrol {
+
+
+}
+
 #newTasting h1{
     position: absolute;
-    font-size: 7.0vw;
+    font-size: 5.0vw;
     top: 50%;
     bottom: 50%;
     color: rgb(47, 0, 255);
-    text-align: center;
     display: none;
     opacity: 100%;
 }

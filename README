@@ -2,5 +2,6 @@ This is myScotchbook.
 It is my class project for Code Louisville in the fall of 2017.  
 It was created because I have a passion for scotch and wanted a log of
 the various tastings I have. This is my long-term project and this is only the front end of it.
-It is using the bootstrap framework.  I have altered the header and footer using an external css file. 
-The "A new dram" page is th eform that doesnt subit because it has nowhere to go.
+It is using the bootstrap framework.  I have altered the header and footer using an external css file and altered fonts styles. 
+The "A new dram" page is th form that doesnt subit because it has nowhere to go but selects the first imput.
+to activate the Javascript sample, click the my scotchbook link.
